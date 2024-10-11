@@ -40,7 +40,12 @@ elif choice == '2':
         print("get a normal calculator dumbass")
 
 elif choice == '3':
-   print(f"{num1} * {num2} = {multiply(num1,num2)}")
+    result_3 multiply(num1, num2)
+    wtv_usr_put_3 = int(input(f"how much is {num1}  {num2}"))
+    if wtv_usr_put_3 == result_3
+        print("chat is this real 󱜹 !")
+    else:
+        print("never touch this file again")
 
 elif choice == '4':
    print(f"{num1} / {num2} = {divide(num1,num2)}")
