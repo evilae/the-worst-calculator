@@ -48,7 +48,12 @@ elif choice == '3':
         print("never touch this file again")
 
 elif choice == '4':
-   print(f"{num1} / {num2} = {divide(num1,num2)}")
+   result_4 = divide(num1, num2)
+   wtv_usr_put_4 = int(input(f"how much is {num1}  {num2}? "))
+   if wtv_usr_put_4 == result_4:
+      print("you a goofy ass nerd ")
+   else:
+      print("git gud bud")
 
 else:
-   print("Invalid input")
+   print("you are a fucking dumbass there are only 4 options how did you fuck THAT up")
