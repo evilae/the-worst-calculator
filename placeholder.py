@@ -26,7 +26,7 @@ num2 = int(input("Enter second number: "))
 if choice == '1':
    result_1 = add(num1, num2)
    wtv_usr_put_1 = int(input(f"How much is {num1} + {num2}? "))
-   if wtv_usr_put_1 == result:
+   if wtv_usr_put_1 == result_1:
       print("Holy shit you did it yourself!")
    else:
       print("Kinda took the L here lmfao")    
