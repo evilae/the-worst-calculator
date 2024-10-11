@@ -29,7 +29,7 @@ if choice == '1':
    if wtv_usr_put_1 == result_1:
       print("Holy shit you did it yourself!")
    else:
-      print("Kinda took the L here lmfao")    
+      print("try harder")    
 
 elif choice == '2':
     result_2 = subtract(num1, num2)
