@@ -40,7 +40,7 @@ elif choice == '2':
         print("get a normal calculator dumbass")
 
 elif choice == '3':
-    result_3 multiply(num1, num2)
+    result_3 = multiply(num1, num2)
     wtv_usr_put_3 = int(input(f"how much is {num1}  {num2}"))
     if wtv_usr_put_3 == result_3
         print("chat is this real 󱜹 !")
